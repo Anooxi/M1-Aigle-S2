@@ -39,4 +39,4 @@ A cause du bind :
 A cause 
 
 ## Question 7
-bind jette une exception ALreadyBoundException si le nom est déjà utilisé dans le registre, alors que rebind remplace dans ce cas l'ancien objet associé par le nouveau passé en paramètre
+bind jette une exception AlreadyBoundException si le nom est déjà utilisé dans le registre, alors que rebind remplace dans ce cas l'ancien objet associé par le nouveau passé en paramètre
