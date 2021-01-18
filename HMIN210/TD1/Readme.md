@@ -30,3 +30,13 @@ Permet :
 - spécifier les méthodes accessibles à distance pour les classes implémentant cette interface (ici : HelloImpl)
   
 ## Question 6
+A cause du bind :
+   - AlreadyBoundException -> if name is already bound
+   - RemoteException -> if remote communication with the registre failed; if exception is a ServerException containing an AccessException, then the registry denies the caller access to perform this operation (if originating from a non-local host, for example)
+   - AccessException - if this registry is local and it denies the caller access to perform this operation
+   - NullPointerException - if name is null, or if obj is null
+
+A cause 
+
+## Question 7
+bind jette une exception ALreadyBoundException si le nom est déjà utilisé dans le registre, alors que rebind remplace dans ce cas l'ancien objet associé par le nouveau passé en paramètre
