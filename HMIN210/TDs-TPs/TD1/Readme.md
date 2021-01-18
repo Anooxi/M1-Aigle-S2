@@ -40,3 +40,8 @@ A cause
 
 ## Question 7
 bind jette une exception AlreadyBoundException si le nom est déjà utilisé dans le registre, alors que rebind remplace dans ce cas l'ancien objet associé par le nouveau passé en paramètre
+
+## Question 8
+Le client ne peut pas se lier au registre et donc il n'est pas connecté au serveur.
+
+## Question 9
