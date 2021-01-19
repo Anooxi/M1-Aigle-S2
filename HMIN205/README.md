@@ -1,7 +1,7 @@
-# HMIN205 - Développement logicel pour mobiles
+# HMIN205 - Développement logiciel pour mobiles
 
 ## Table des matières
-- [HMIN205 - Développement logicel pour mobiles](#hmin205---développement-logicel-pour-mobiles)
+- [HMIN205 - Développement logiciel pour mobiles](#hmin205---développement-logiciel-pour-mobiles)
   - [Table des matières](#table-des-matières)
   - [Liens utiles](#liens-utiles)
 
