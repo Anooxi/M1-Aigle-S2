@@ -8,7 +8,7 @@ public class HelloImpl extends UnicastRemoteObject  implements Hello {
 	
     public String sayHello() throws RemoteException{
     	return "Hello, world!";
-        } 
+    } 
 
 	public void printHello() throws RemoteException {
 		System.out.println("The server prints: Hello, world!");

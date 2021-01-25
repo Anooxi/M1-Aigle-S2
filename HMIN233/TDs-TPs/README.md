@@ -1,3 +1,4 @@
+# Exercice 1
 ## Question 1
 Séquence de n voitures
 - (a) Une permutations de deux éléments quelconque -> n(n-1)/2 possibilités (~n²)
