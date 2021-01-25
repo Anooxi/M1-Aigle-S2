@@ -7,6 +7,13 @@ public class Server {
     }
 
     public static void main(String[] args) {
+        try {
+            System.setProperty("java.security.policy","C:\\Users\\Anoox\\Desktop\\Cours\\M1-Aigle-S2\\HMIN210\\TDs-TPs\\TP1\\Java\\src\\animal.policy");
+            System.setSecurityManager(new SecurityManager());
+        } catch (Exception e){
+            System.err.println("Server Error n2 :" + e);
+            e.printStackTrace();
+        }
         //
         // Bloc de code d'envoi d'Animal
         //
@@ -24,12 +31,6 @@ public class Server {
             e.printStackTrace();
         }
 
-        try {
-            System.setProperty("java.security.policy","C:\\Users\\Anoox\\Desktop\\Cours\\M1-Aigle-S2\\HMIN210\\TDs-TPs\\TP1\\Java\\src\\animal.policy");
-            System.setSecurityManager(new SecurityManager());
-        } catch (Exception e){
-            System.err.println("Server Error n2 :" + e);
-            e.printStackTrace();
-        }
+
     }
 }
