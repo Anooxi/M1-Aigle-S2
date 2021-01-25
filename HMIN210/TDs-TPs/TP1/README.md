@@ -20,6 +20,7 @@ IAnimal stub = (IAnimal) reg.lookup("Animal");
 ```
 - PS : Entourer le code par des try / catch!
 - PS : 1099 est un port qu'on attribut que l'on peut changer
+- PS : reg.lookup récupère l'interface!
 ## Question 2
 Étapes à suivre :  
 - Créer un fichier animal.policy (et écrire dedans les permissions) :  
@@ -43,7 +44,9 @@ System.getSecurityManager();
 ```
 
 ## Question 3
-On rajoute une classe (Suivi) et une interface (ISuivi) en suivant l'implémentation de rmi ( comme pour Animal)  
+On rajoute une classe (Suivi) et une interface (ISuivi) en suivant l'implémentation de rmi (comme pour Animal)  
 Les méthodes appelé sur Suivi sont lancées dans le Serveur
 ## Question 4
 On créer une classe (Espece) avec l'interface Serializable qui permet de lancé les méthodes sur client et pas sur le serveur!
+
+# Exercice 2

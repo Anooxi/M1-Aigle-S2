@@ -22,12 +22,12 @@ public class Client {
         //
         try {
             Registry reg = LocateRegistry.getRegistry(1099);
-            IAnimal stub = (IAnimal) reg.lookup("Animal");
-            String res = stub.printNom();
-            stub.modifyDoc("prout");
-            System.out.println(stub.getDoc());
-            System.out.println(res);
-            System.out.print(stub.getEspeceClass().getNom());
+            ICabinetVeterinaire stub = (ICabinetVeterinaire) reg.lookup("Cabinet");
+            System.out.println(stub.displayAnimaux());
+            System.out.println(stub.rechercheAnimaux("Animal1"));
+            stub.ajouterAnimal("a","a","a",1,"b");
+            System.out.println(stub.displayAnimaux());
+
         } catch (Exception e) {
             System.err.println("Client Error n2 : " + e);
             e.printStackTrace();

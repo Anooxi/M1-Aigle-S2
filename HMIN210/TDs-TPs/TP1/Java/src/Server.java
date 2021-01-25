@@ -18,13 +18,13 @@ public class Server {
         // Bloc de code d'envoi d'Animal
         //
         try {
-            Animal obj = new Animal();
+            CabinetVeterinaire obj = new CabinetVeterinaire();
             Registry reg = LocateRegistry.createRegistry(1099);
             if(reg == null){
                 System.err.println("RmiRegistry not found");
             } else {
-                reg.bind("Animal",obj);
-                System.out.println("Server Ready (Animal bind)");
+                reg.bind("Cabinet",obj);
+                System.out.println("Server Ready (Cabinet bind)");
             }
         } catch (Exception e){
             System.err.println("Server Error n1 :" + e);
