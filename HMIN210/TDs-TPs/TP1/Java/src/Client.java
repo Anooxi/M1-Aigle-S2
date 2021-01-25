@@ -27,14 +27,11 @@ public class Client {
             stub.modifyDoc("prout");
             System.out.println(stub.getDoc());
             System.out.println(res);
+            System.out.print(stub.getEspeceClass().getNom());
         } catch (Exception e) {
             System.err.println("Client Error n2 : " + e);
             e.printStackTrace();
         }
-
-        //
-        // Bloc de code
-        //
 
     }
 }

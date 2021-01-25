@@ -9,8 +9,10 @@ public class Animal extends UnicastRemoteObject implements IAnimal{
     private int age;
     private String race;
     private Suivi doc;
+    private Espece especeClass;
 
     public String getDoc() throws RemoteException {
+        System.out.println("Appel de la méthode getDoc() de Animal");
         return doc.toString();
     }
 
@@ -29,6 +31,7 @@ public class Animal extends UnicastRemoteObject implements IAnimal{
         this.age = 13;
         this.race = "TestRace";
         this.doc = new Suivi();
+        this.especeClass = new Espece();
     }
 
     public Animal(String nom, String nomDuMaitre, String espece, int age, String race) throws RemoteException {
@@ -38,6 +41,11 @@ public class Animal extends UnicastRemoteObject implements IAnimal{
         this.age = age;
         this.race = race;
         this.doc = new Suivi();
+        this.especeClass = new Espece();
+    }
+
+    public Espece getEspeceClass(){
+        return especeClass;
     }
 
     public String getNom() {
