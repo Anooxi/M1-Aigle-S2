@@ -13,6 +13,7 @@ public class Suivi extends UnicastRemoteObject implements ISuivi {
     }
 
     public void setTexte(String texte) throws RemoteException{
+        System.out.println("Appel de la méthode setTexte() de Suivi");
         this.texte = texte;
     }
 

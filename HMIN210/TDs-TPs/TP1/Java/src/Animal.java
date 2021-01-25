@@ -12,7 +12,6 @@ public class Animal extends UnicastRemoteObject implements IAnimal{
     private Espece especeClass;
 
     public String getDoc() throws RemoteException {
-        System.out.println("Appel de la méthode getDoc() de Animal");
         return doc.toString();
     }
 
