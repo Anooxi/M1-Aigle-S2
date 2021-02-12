@@ -1,0 +1,7 @@
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\NETCSharp\NETCSharp\bin\Debug\NETCSharp.exe.config
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\NETCSharp\NETCSharp\bin\Debug\NETCSharp.exe
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\NETCSharp\NETCSharp\bin\Debug\NETCSharp.pdb
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\NETCSharp\NETCSharp\obj\Debug\NETCSharp.csprojAssemblyReference.cache
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\NETCSharp\NETCSharp\obj\Debug\NETCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\NETCSharp\NETCSharp\obj\Debug\NETCSharp.exe
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\NETCSharp\NETCSharp\obj\Debug\NETCSharp.pdb

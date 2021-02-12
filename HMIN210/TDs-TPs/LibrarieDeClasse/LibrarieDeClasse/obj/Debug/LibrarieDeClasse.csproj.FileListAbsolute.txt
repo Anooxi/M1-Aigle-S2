@@ -1,0 +1,5 @@
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\LibrarieDeClasse\LibrarieDeClasse\bin\Debug\LibrarieDeClasse.dll
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\LibrarieDeClasse\LibrarieDeClasse\bin\Debug\LibrarieDeClasse.pdb
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\LibrarieDeClasse\LibrarieDeClasse\obj\Debug\LibrarieDeClasse.csproj.CoreCompileInputs.cache
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\LibrarieDeClasse\LibrarieDeClasse\obj\Debug\LibrarieDeClasse.dll
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\LibrarieDeClasse\LibrarieDeClasse\obj\Debug\LibrarieDeClasse.pdb

@@ -1,0 +1,6 @@
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\Librairie\bin\Debug\Librairie.dll
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\Librairie\bin\Debug\Librairie.pdb
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\Librairie\obj\Debug\Librairie.csprojAssemblyReference.cache
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\Librairie\obj\Debug\Librairie.csproj.CoreCompileInputs.cache
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\Librairie\obj\Debug\Librairie.dll
+C:\Users\Anoox\Desktop\Cours\M1-Aigle-S2\HMIN210\TDs-TPs\Librairie\obj\Debug\Librairie.pdb

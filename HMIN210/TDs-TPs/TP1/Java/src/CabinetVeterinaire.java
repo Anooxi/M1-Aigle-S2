@@ -6,7 +6,6 @@ import java.util.ArrayList;
 public class CabinetVeterinaire extends UnicastRemoteObject implements ICabinetVeterinaire {
 
     ArrayList<Animal> animaux = new ArrayList<>();
-    ArrayList<Patient> patients = new ArrayList<>();
 
     public CabinetVeterinaire() throws RemoteException {
         animaux.add(new Animal("Animal1","Maitre1","Chien",1,"Race1"));
@@ -41,8 +40,4 @@ public class CabinetVeterinaire extends UnicastRemoteObject implements ICabinetV
         animaux.add(new Animal(nom,nomDuMaitre,espece,age,race));
     }
 
-    @Override
-    public void ajouterPatient(String nom, String prenom) throws RemoteException {
-        patients.add(new Patient(nom,prenom));
-    }
 }
